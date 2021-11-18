@@ -17,7 +17,7 @@ function User(user) {
 	return (
 		<>
 			<div className="d-grid gap-2">
-				<Button variant="primary" onClick={handleShow}>
+				<Button className="modalBtn" variant="primary" onClick={handleShow}>
 					More info
 				</Button>
 			</div>

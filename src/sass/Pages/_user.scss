@@ -35,3 +35,9 @@
 		width: 100%;
 	}
 }
+
+.modalBtn {
+	@media only screen and (max-width: 400px) {
+		font-size: smaller;
+	}
+}

@@ -29,6 +29,12 @@
   box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
 }
 
+@media only screen and (max-width: 400px) {
+  .profile {
+    width: 150px;
+  }
+}
+
 .profile__header {
   display: flex;
   flex-direction: column;
@@ -43,8 +49,27 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 400px) {
+  .profile__header__avatar {
+    height: 45px;
+    width: 45px;
+  }
+}
+
 .profile__header__name {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+  .profile__header__name {
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile__header__text {
+    font-size: smaller;
+  }
 }
 
 .profile__footer {
@@ -131,13 +156,19 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 400px) {
+  .modalBtn {
+    font-size: smaller;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fcf3e4;
+  background-color: #ebe5dc;
 }
 
 code {
