@@ -1,0 +1,37 @@
+.user {
+	&__header {
+		display: flex;
+		flex-direction: column;
+		background-image: radial-gradient(circle, #0b5ed7 0%, #00d4ff 100%);
+		@include shadow;
+		&__avatar {
+			width: 100px;
+			@include shadow;
+		}
+		&__title {
+			color: white;
+		}
+		&__text {
+			color: white;
+		}
+	}
+	&__detail {
+		display: flex;
+		align-items: center;
+		margin: 5px 0;
+		&__icon {
+			margin-right: 5px;
+		}
+		&__text {
+			margin-right: 5px;
+			font-weight: bold;
+		}
+	}
+	&__address {
+		display: flex;
+		flex-direction: column;
+	}
+	&__footerBtn {
+		width: 100%;
+	}
+}

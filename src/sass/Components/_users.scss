@@ -1,0 +1,33 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 15px auto;
+}
+
+.profile {
+	background-color: rgb(245, 241, 235);
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	@include shadow;
+	&__header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		&__avatar {
+			@include shadow;
+			display: flex;
+			height: 80px;
+			width: 80px;
+			margin-bottom: 10px;
+		}
+		&__name {
+			font-weight: bold;
+		}
+	}
+	&__footer {
+		display: flex;
+		justify-content: center;
+	}
+}

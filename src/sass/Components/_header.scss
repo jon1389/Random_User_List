@@ -1,0 +1,14 @@
+.header {
+	background-color: #0b5ed7;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 70px;
+	@include shadow;
+	&__title {
+		color: white;
+		font-weight: bold;
+		font-size: 30px;
+		margin: 10px 0;
+	}
+}

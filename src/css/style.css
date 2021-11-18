@@ -1,0 +1,146 @@
+.header {
+  background-color: #0b5ed7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+}
+
+.header__title {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.profile {
+  background-color: #f5f1eb;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+}
+
+.profile__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__header__avatar {
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.profile__header__name {
+  font-weight: bold;
+}
+
+.profile__footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #0b5ed7;
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  padding-top: 15px;
+}
+
+@media only screen and (max-width: 510px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer__link {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer__link:hover {
+  text-shadow: 0 5px 15px #dacda2;
+  color: white;
+}
+
+.user__header {
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(circle, #0b5ed7 0%, #00d4ff 100%);
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+}
+
+.user__header__avatar {
+  width: 100px;
+  box-shadow: 3px 3px 14px 4px rgba(61, 61, 61, 0.54);
+}
+
+.user__header__title {
+  color: white;
+}
+
+.user__header__text {
+  color: white;
+}
+
+.user__detail {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.user__detail__icon {
+  margin-right: 5px;
+}
+
+.user__detail__text {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.user__address {
+  display: flex;
+  flex-direction: column;
+}
+
+.user__footerBtn {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fcf3e4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=style.css.map */
